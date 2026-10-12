@@ -1,0 +1,11 @@
+---
+interface Props {
+  skills: string[];
+}
+
+const { skills } = Astro.props;
+---
+
+<ul class="flex flex-wrap gap-2" aria-label="Skills and tools">
+  {skills.map((skill) => <li class="pill">{skill}</li>)}
+</ul>

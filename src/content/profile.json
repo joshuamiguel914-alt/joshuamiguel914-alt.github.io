@@ -1,0 +1,78 @@
+{
+  "name": "Joshua Miguel O. Macabalitao",
+  "title": "Accounting Professional and Information Systems Professional",
+  "location": "North Caloocan, Metro Manila, Philippines (remote-friendly)",
+  "email": "joshuamiguel914@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/macabalitao-0066a0387",
+  "github": "https://github.com/joshuamiguel914-alt",
+  "phone": "[ADD PHONE]",
+  "about": "Dedicated BS Accounting Information System (BSAIS) student and remote accounting professional based in Metro Manila. Strong foundation in financial accounting, tax compliance, and auditing, combined with modern information systems to bridge traditional accounting workflows and digital transformation.",
+  "competencies": [
+    {
+      "title": "Financial and Managerial Accounting",
+      "skills": ["bookkeeping", "journal entries", "pre-auditing", "transaction reconciliation"]
+    },
+    {
+      "title": "Taxation and Compliance",
+      "skills": ["BIR compliance", "Purchase Journals", "Cash Disbursement Journals", "SLSP encoding via BIR RELIEF"]
+    },
+    {
+      "title": "Information Systems and Database",
+      "skills": ["database structuring", "systems analysis and design", "business process flowcharting"]
+    }
+  ],
+  "experience": {
+    "role": "Remote Accounting Intern",
+    "company": "Magis Communication Manila Inc.",
+    "period": "Dec 2025 to Present",
+    "responsibilities": [
+      "Manage full-cycle transaction records and compliance schedules for BIR reporting (Purchase and Cash Disbursement Journals over 1-year spans)",
+      "Encode and validate SLSP using the official BIR RELIEF System",
+      "Pre-audit cash advance requests and liquidations across multiple accounts, ensuring complete documentation and adherence to internal controls"
+    ]
+  },
+  "certifications": [
+    {
+      "name": "Certified QuickBooks Online ProAdvisor",
+      "issuer": "Intuit",
+      "date": "Oct 6, 2025"
+    },
+    {
+      "name": "TESDA Bookkeeping NC III Review and Training",
+      "issuer": "TESDA",
+      "date": "[ADD DATE]"
+    }
+  ],
+  "tools": [
+    "QuickBooks Online",
+    "Odoo Accounting",
+    "BIR RELIEF",
+    "eBIRForms",
+    "Advanced Excel",
+    "Google Sheets",
+    "Financial Modeling",
+    "SQL",
+    "PHP",
+    "HTML",
+    "CSS",
+    "C++",
+    "phpMyAdmin",
+    "XAMPP",
+    "GitHub",
+    "VS Code"
+  ],
+  "toolGroups": [
+    {
+      "title": "Accounting and Tax",
+      "skills": ["QuickBooks Online", "Odoo Accounting", "BIR RELIEF", "eBIRForms", "Advanced Excel", "Google Sheets", "Financial Modeling"]
+    },
+    {
+      "title": "Information Systems and Databases",
+      "skills": ["SQL", "database structuring", "systems analysis and design", "business process flowcharting", "phpMyAdmin"]
+    },
+    {
+      "title": "Software and Tools",
+      "skills": ["PHP", "HTML", "CSS", "C++", "XAMPP", "GitHub", "VS Code"]
+    }
+  ]
+}

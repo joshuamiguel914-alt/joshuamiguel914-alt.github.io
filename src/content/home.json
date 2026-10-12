@@ -1,0 +1,35 @@
+{
+  "valueStatement": "I bridge traditional accounting and digital systems, from BIR-compliant bookkeeping to database-driven workflows.",
+  "projects": [
+    {
+      "slug": "remote-accounting-internship",
+      "title": "Remote Accounting Internship",
+      "organization": "Magis Communication Manila Inc.",
+      "role": "Remote Accounting Intern",
+      "date": "Dec 2025 to present",
+      "outcome": "BIR-ready Purchase and Cash Disbursement Journals plus SLSP encoding via BIR RELIEF.",
+      "cover": "/images/accounting-ledger.webp",
+      "featured": true
+    },
+    {
+      "slug": "quickbooks-online-proadvisor",
+      "title": "QuickBooks Online ProAdvisor Certification",
+      "organization": "Intuit",
+      "role": "Certified QuickBooks Online ProAdvisor",
+      "date": "Oct 6, 2025",
+      "outcome": "Completed the QuickBooks Online ProAdvisor certification with Intuit.",
+      "cover": "/images/accounting-software.webp",
+      "featured": false
+    },
+    {
+      "slug": "information-systems-project",
+      "title": "Information Systems Project",
+      "organization": "Academic project",
+      "role": "Information Systems student",
+      "date": "[ADD PROJECT DATE]",
+      "outcome": "Database structuring, systems analysis and design, and business process flowcharts.",
+      "cover": "/images/systems-flow.webp",
+      "featured": false
+    }
+  ]
+}
