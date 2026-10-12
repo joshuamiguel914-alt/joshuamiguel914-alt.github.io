@@ -1,6 +1,6 @@
 # Joshua Macabalitao — Portfolio
 
-Static personal portfolio built with Astro, Tailwind CSS, and TypeScript. The site is configured for GitHub Pages at `https://joshuamiguel914-alt.github.io/portfolio/`.
+Static personal portfolio built with Astro, Tailwind CSS, and TypeScript. The site is configured for GitHub Pages at `https://joshuamiguel914-alt.github.io/`.
 
 ## Local setup
 
@@ -18,11 +18,11 @@ The generated site is written to `dist/`.
 
 ## Deploy to GitHub Pages
 
-1. Push this project to the `portfolio` repository under `joshuamiguel914-alt`.
+1. Push this project to the `joshuamiguel914-alt.github.io` repository under `joshuamiguel914-alt`.
 2. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**.
 3. Push to `main` or run the **Deploy to GitHub Pages** workflow manually. The workflow builds the site and publishes `dist/`.
 
-`astro.config.mjs` sets `site` and `base` for the project Pages URL. If the repository name changes, update `base` there and the sitemap URL in `public/robots.txt`.
+`astro.config.mjs` sets `site` and `base` for the user-site Pages URL. If the repository name changes to a project site, update `base` there and the sitemap URL in `public/robots.txt`.
 
 ## Content and placeholders to replace
 
