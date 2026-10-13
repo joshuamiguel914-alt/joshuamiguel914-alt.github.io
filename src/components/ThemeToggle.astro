@@ -27,7 +27,13 @@
     }
     sun?.classList.toggle("hidden", theme !== "light");
     moon?.classList.toggle("hidden", theme !== "dark");
-    if (save) localStorage.setItem("theme", theme);
+    if (save) {
+      try {
+        localStorage.setItem("theme", theme);
+      } catch (error) {
+        console.error("Unable to save the theme preference.", error);
+      }
+    }
   }
 
   setTheme(document.documentElement.dataset.theme === "dark" ? "dark" : "light");
@@ -38,6 +44,11 @@
   });
 
   systemTheme.addEventListener("change", (event) => {
-    if (!localStorage.getItem("theme")) setTheme(event.matches ? "dark" : "light");
+    try {
+      if (!localStorage.getItem("theme")) setTheme(event.matches ? "dark" : "light");
+    } catch (error) {
+      console.error("Unable to read the theme preference.", error);
+      setTheme(event.matches ? "dark" : "light");
+    }
   });
 </script>

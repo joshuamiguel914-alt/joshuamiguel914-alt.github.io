@@ -8,7 +8,6 @@
       "role": "Remote Accounting Intern",
       "date": "Dec 2025 to present",
       "outcome": "BIR-ready Purchase and Cash Disbursement Journals plus SLSP encoding via BIR RELIEF.",
-      "cover": "/images/accounting-ledger.webp",
       "featured": true
     },
     {
@@ -18,7 +17,6 @@
       "role": "Certified QuickBooks Online ProAdvisor",
       "date": "Oct 6, 2025",
       "outcome": "Completed the QuickBooks Online ProAdvisor certification with Intuit.",
-      "cover": "/images/accounting-software.webp",
       "featured": false
     },
     {
@@ -28,7 +26,6 @@
       "role": "Information Systems student",
       "date": "[ADD PROJECT DATE]",
       "outcome": "Database structuring, systems analysis and design, and business process flowcharts.",
-      "cover": "/images/systems-flow.webp",
       "featured": false
     }
   ]

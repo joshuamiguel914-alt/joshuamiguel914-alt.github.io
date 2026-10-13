@@ -4,7 +4,7 @@ role: Information Systems student
 date: "[ADD PROJECT DATE]"
 summary: Database structuring, systems analysis and design, and business process flowcharts.
 result: "[ADD PROJECT RESULT OR DELIVERABLE.]"
-cover: /images/systems-flow.webp
+cover: ../../assets/images/systems-flow.webp
 featured: false
 order: 3
 ---

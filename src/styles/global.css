@@ -1,27 +1,34 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
-@config "../../tailwind.config.cjs";
+
+@theme inline {
+  --color-ink: rgb(var(--ink-rgb));
+  --color-paper: rgb(var(--paper-rgb));
+  --color-muted: rgb(var(--muted-rgb));
+  --color-accent: rgb(var(--accent-rgb));
+  --color-line: rgb(var(--line-rgb));
+  --font-heading: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-body: Inter, ui-sans-serif, system-ui, sans-serif;
+  --container-content: 1100px;
+}
 
 :root {
   color-scheme: light;
-  --color-paper: 250 250 247;
-  --color-ink: 24 37 36;
-  --color-muted: 82 99 96;
-  --color-accent: 0 102 92;
-  --color-line: 217 225 221;
+  --paper-rgb: 250 250 247;
+  --ink-rgb: 24 37 36;
+  --muted-rgb: 82 99 96;
+  --accent-rgb: 0 102 92;
+  --line-rgb: 217 225 221;
   --surface: 255 255 252;
-  --accent-soft: 226 240 235;
 }
 
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --color-paper: 18 27 26;
-  --color-ink: 237 243 239;
-  --color-muted: 184 198 192;
-  --color-accent: 104 210 184;
-  --color-line: 54 70 66;
+  --paper-rgb: 18 27 26;
+  --ink-rgb: 237 243 239;
+  --muted-rgb: 184 198 192;
+  --accent-rgb: 104 210 184;
+  --line-rgb: 54 70 66;
   --surface: 26 38 36;
-  --accent-soft: 32 60 53;
 }
 
 * {
@@ -57,12 +64,12 @@ textarea {
 }
 
 ::selection {
-  color: rgb(var(--color-paper));
-  background: rgb(var(--color-accent));
+  color: rgb(var(--paper-rgb));
+  background: rgb(var(--accent-rgb));
 }
 
 :focus-visible {
-  outline: 3px solid rgb(var(--color-accent));
+  outline: 3px solid rgb(var(--accent-rgb));
   outline-offset: 4px;
 }
 
@@ -72,7 +79,7 @@ textarea {
 }
 
 .eyebrow {
-  color: rgb(var(--color-accent));
+  color: rgb(var(--accent-rgb));
   font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -90,10 +97,10 @@ textarea {
 .pill {
   display: inline-flex;
   align-items: center;
-  border: 1px solid rgb(var(--color-line));
+  border: 1px solid rgb(var(--line-rgb));
   border-radius: 999px;
   padding: 0.45rem 0.8rem;
-  color: rgb(var(--color-ink));
+  color: rgb(var(--ink-rgb));
   font-size: 0.83rem;
   line-height: 1.2;
 }
@@ -114,8 +121,8 @@ textarea {
 }
 
 .button-primary {
-  color: rgb(var(--color-paper));
-  background: rgb(var(--color-accent));
+  color: rgb(var(--paper-rgb));
+  background: rgb(var(--accent-rgb));
 }
 
 :root[data-theme="dark"] .button-primary {
@@ -128,7 +135,7 @@ textarea {
 }
 
 .button-secondary {
-  border: 1px solid rgb(var(--color-line));
+  border: 1px solid rgb(var(--line-rgb));
   background: rgb(var(--surface));
 }
 
@@ -144,7 +151,7 @@ textarea {
 .prose-case h2 {
   margin-top: 2.5rem;
   margin-bottom: 0.85rem;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: var(--font-heading);
   font-size: 1.45rem;
   font-weight: 600;
   letter-spacing: -0.03em;
@@ -152,7 +159,7 @@ textarea {
 
 .prose-case p,
 .prose-case li {
-  color: rgb(var(--color-muted));
+  color: rgb(var(--muted-rgb));
   line-height: 1.8;
 }
 

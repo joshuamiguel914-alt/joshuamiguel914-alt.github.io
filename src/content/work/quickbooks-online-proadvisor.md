@@ -4,7 +4,7 @@ role: Certified QuickBooks Online ProAdvisor
 date: Oct 6, 2025
 summary: QuickBooks Online ProAdvisor certification from Intuit.
 result: Certified QuickBooks Online ProAdvisor through Intuit on Oct 6, 2025.
-cover: /images/accounting-software.webp
+cover: ../../assets/images/accounting-software.webp
 featured: false
 order: 2
 ---

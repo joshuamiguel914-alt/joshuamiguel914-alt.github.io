@@ -31,13 +31,18 @@ const socialImage = new URL(`${baseUrl}images/social-card.webp`, Astro.url.origi
     <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    />
     <script is:inline>
       try {
         const storedTheme = localStorage.getItem("theme");
-        const theme = storedTheme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        const systemTheme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        const theme = storedTheme === "dark" || storedTheme === "light" ? storedTheme : systemTheme;
         document.documentElement.dataset.theme = theme;
       } catch {
-        document.documentElement.dataset.theme = "light";
+        document.documentElement.dataset.theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
       }
     </script>
     <title>{title}</title>

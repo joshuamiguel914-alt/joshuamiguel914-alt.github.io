@@ -13,8 +13,8 @@ import profile from "../content/profile.json";
       <span class="text-muted">{profile.location}</span>
     </div>
     <div class="flex gap-4 text-sm md:col-span-2 md:justify-end">
-      <a class="text-muted transition hover:text-accent" href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
-      <a class="text-muted transition hover:text-accent" href={profile.github} target="_blank" rel="noreferrer">GitHub</a>
+      <a class="text-muted transition hover:text-accent" href={profile.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a class="text-muted transition hover:text-accent" href={profile.github} target="_blank" rel="noopener noreferrer">GitHub</a>
     </div>
     <p class="border-t border-line pt-5 text-xs text-muted md:col-span-12">
       © {new Date().getFullYear()} {profile.name}

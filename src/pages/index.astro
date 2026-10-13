@@ -42,7 +42,7 @@ const sortedProjects = [...projects].sort((a, b) => Number(b.featured) - Number(
     </div>
     <div class="hidden md:col-span-4 md:block" data-reveal>
       <div class="rounded-2xl border border-line bg-accent/5 p-5">
-        <Image src={ledgerCover} alt="Illustrated accounting ledger and journal entries" class="aspect-[4/5] w-full rounded-xl object-cover" widths={[360, 560]} sizes="(max-width: 1100px) 32vw, 350px" format="webp" loading="eager" />
+        <Image src={ledgerCover} alt="Illustrated accounting ledger and journal entries" class="aspect-[4/5] w-full rounded-xl object-cover" widths={[360, 560]} sizes="(max-width: 1100px) 32vw, 350px" format="webp" width={ledgerCover.width} height={ledgerCover.height} loading="eager" />
       </div>
     </div>
   </section>

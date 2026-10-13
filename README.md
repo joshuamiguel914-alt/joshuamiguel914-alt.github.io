@@ -22,7 +22,7 @@ The generated site is written to `dist/`.
 2. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**.
 3. Push to `main` or run the **Deploy to GitHub Pages** workflow manually. The workflow builds the site and publishes `dist/`.
 
-`astro.config.mjs` sets `site` and `base` for the user-site Pages URL. If the repository name changes to a project site, update `base` there and the sitemap URL in `public/robots.txt`.
+`astro.config.mjs` sets the canonical user-site URL. The deploy workflow builds the site with `withastro/action` and publishes the generated `dist/` directory.
 
 ## Content and placeholders to replace
 
@@ -32,6 +32,4 @@ The generated site is written to `dist/`.
 - **Case-study details and metrics:** Fill every `[ADD ...]` item in `src/content/work/*.md` with verified project details. Do not publish invented performance statistics.
 - **Information Systems project:** Replace the project date and project placeholder details in `src/content/home.json` and `src/content/work/information-systems-project.md`.
 - **TESDA certification date:** Replace `[ADD DATE]` in `src/content/profile.json` if you want to show the date.
-- **Contact form:** Replace `REPLACE_WITH_FORM_ID` in `src/components/ContactForm.astro` with your Formspree form ID. The form only reports success when the endpoint confirms it received the message.
-
 Portfolio copy is editable in `src/content/profile.json`, `src/content/home.json`, and the Markdown case studies in `src/content/work/`.
