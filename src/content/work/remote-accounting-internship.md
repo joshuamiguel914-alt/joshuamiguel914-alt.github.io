@@ -4,7 +4,7 @@ role: Remote Accounting Intern, Magis Communication Manila Inc.
 date: Dec 2025 to present
 summary: BIR-ready Purchase and Cash Disbursement Journals plus SLSP encoding via BIR RELIEF.
 result: BIR-ready journals and validated SLSP encoding for recurring compliance workflows.
-cover: /images/accounting-ledger.webp
+cover: ../../assets/images/accounting-ledger.webp
 featured: true
 order: 1
 ---

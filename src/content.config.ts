@@ -4,13 +4,13 @@ import { z } from "astro/zod";
 
 const work = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/work" }),
-  schema: z.object({
+  schema: ({ image }) => z.object({
     title: z.string(),
     role: z.string(),
     date: z.string(),
     summary: z.string(),
     result: z.string(),
-    cover: z.string(),
+    cover: image(),
     featured: z.boolean().default(false),
     order: z.number(),
   }),
