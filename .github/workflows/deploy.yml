@@ -22,9 +22,9 @@ jobs:
         uses: actions/checkout@v4
       - name: Build and upload site
         uses: withastro/action@v3
-        with:
+        with: 
           path: .
-          build-cmd: npm run build
+          node-version: 22
 
   deploy:
     environment:
