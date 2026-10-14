@@ -11,7 +11,7 @@ order: 1
 
 ## Problem
 
-[ADD CONTEXT ABOUT THE ACCOUNTING WORKFLOW OR CHALLENGE.]
+Managing high-volume, multi-account transactions over a full one-year period created a high risk of documentation gaps, misclassified entries, and potential penalties during BIR tax submissions.
 
 ## My Role
 
@@ -19,17 +19,17 @@ As a Remote Accounting Intern at Magis Communication Manila Inc. (Dec 2025 to Pr
 
 ## Process
 
-1. [ADD THE STEPS YOU FOLLOW TO RECEIVE AND ORGANIZE SOURCE DOCUMENTS.]
-2. [ADD HOW YOU PREPARE AND REVIEW JOURNALS AND COMPLIANCE SCHEDULES.]
-3. Encode and validate SLSP using the official BIR RELIEF System.
+1. Meticulously processed and recorded 1-year transaction data across Purchase Journals and Cash Disbursement Journals using advanced Microsoft Excel and Google Sheets functions.
+2. Encoded and validated Summary Lists of Sales/Purchases (SLSP) using the official BIR RELIEF System.
+3. Data intake and initial sorting of raw receipts and disbursement vouchers.
 4. Pre-audit cash advance requests and liquidations for documentation and internal-control adherence.
 
 ## Tools Used
 
-BIR RELIEF, [ADD ACCOUNTING SOFTWARE], [ADD SPREADSHEET TOOLS].
+BIR RELIEF, Odoo, Excel, and Google sheet.
 
 ## Result and What I Learned
 
-The work supports BIR reporting through Purchase and Cash Disbursement Journals and SLSP encoding. [ADD METRIC: e.g., number of transactions processed, reporting periods supported, or reconciliation accuracy, using verified records only.]
+The work supports BIR reporting through Purchase and Cash Disbursement Journals full 1-year reporting period. SLSP encoding in BIR RELIEF System prior to the deadline. Successfully processed, reconciled, and audited a across multiple accounts with 100% pre-audit documentation verification accuracy.
 
-[ADD A SPECIFIC LESSON OR IMPROVEMENT YOU MADE.]
+Proactive Verification Checklists. Early in the internship, handling multi-account liquidations occasionally led to back-and-forth corrections due to missing minor receipt details. I improved the process by introducing a pre-audit sorting checklist used prior to journal entry, which eliminated recurring documentation gaps and accelerated batch filing speed.
