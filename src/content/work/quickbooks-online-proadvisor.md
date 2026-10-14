@@ -11,7 +11,7 @@ order: 2
 
 ## Problem
 
-[ADD THE ACCOUNTING OR BOOKKEEPING KNOWLEDGE AREA YOU WANTED TO STRENGTHEN.]
+Bridging traditional academic bookkeeping theory with modern cloud-based ERP environments by mastering end-to-end cloud accounting workflows, automated bank feeds, and efficient month-end reconciliation procedures.
 
 ## My Role
 
@@ -19,18 +19,18 @@ I completed the QuickBooks Online ProAdvisor certification with Intuit on Oct 6,
 
 ## Process
 
-1. [ADD THE COURSE OR TRAINING MODULES COMPLETED.]
-2. [ADD HOW YOU PREPARED FOR THE CERTIFICATION.]
-3. [ADD THE VERIFIED ASSESSMENT OR COMPLETION DETAILS.]
+1. Completed comprehensive QuickBooks Online Accountant training modules covering client setup, chart of accounts configuration, sales and expense workflows, and accountant toolsets.
+2. Engaged in self-paced study through the Intuit ProAdvisor Academy, reviewing cloud accounting best practices and practicing transaction entries.
+3. Successfully passed the official online assessment to attain the Certified QuickBooks Online ProAdvisor (Accountant Certification) credential on October 6, 2025.
 
 ## Tools Used
 
-QuickBooks Online, [ADD OTHER VERIFIED TOOLS OR STUDY MATERIALS].
+QuickBooks Online, QuickBooks Online Accountant (QBOA), Intuit ProAdvisor Academy learning portals, and Microsoft Excel.
 
 ## Result and What I Learned
 
 Certified QuickBooks Online ProAdvisor (Intuit, Oct 6, 2025).
 
-[ADD METRIC: include only a verified exam score, training hours, or other real measure if available.]
+Successfully completed the multi-module Accountant Certification curriculum and passed the official examination to earn verified Intuit credential status.
 
-[ADD A SPECIFIC SKILL OR LESSON YOU NOW APPLY.]
+Mastered efficient client file navigation, automated bank rule configuration, and systematic transaction reclassification, enabling faster and more accurate reconciliations for professional bookkeeping workflows.
